@@ -16,6 +16,7 @@ int main(void)
 
 {
 
+	prinf("Hello") 
 	    return (0);
-
+}
 

@@ -10,8 +10,11 @@ int i = 0;
 int j = 1;
 do {
 printf(" %d%d,", i, j);
-i++;
+if (i == j)
+{
 j++;
+continue;
+}
 } while (i <= 6 && j <= 9);
 return (0);
 }

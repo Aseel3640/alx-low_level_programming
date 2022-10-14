@@ -16,6 +16,6 @@ i++;
 j++;
 continue;
 }
-} while (i <= 9 && j<=9);
+} while (i <= 9 && j <= 9);
 return (0);
 }

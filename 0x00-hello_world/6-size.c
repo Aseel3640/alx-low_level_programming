@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-*main-Entry point 
-*C program that prints the size of various types
+*main-Entry points
 *Return: Always 0 (Success)
 */
 int main(void)
@@ -12,9 +11,9 @@ long int c;
 long long int d;
 float e;
 printf("Size of char: %zu byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of int: %zu byte(s)\n", (unsigned long)sizeof(b));
-printf("Size of long int: %zu byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of float: %zu byte(s)\n", (unsigned long)sizeof(e));
+printf("Size of an int: %zu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int: %zu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(e));
 return (0);
 }

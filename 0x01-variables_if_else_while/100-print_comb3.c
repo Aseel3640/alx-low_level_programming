@@ -7,10 +7,14 @@
 int main(void)
 {
 int i, j;
-for (i = 0; i <= 9; i++)
-for (j = 0; j <= 9; j++)
+for (i = 0; i <= 6; i++)
+for (j = 1; j <= 9; j++)
+if (i == j)
 {
-printf("%d%d,", i,j);
+continue;
+}
+{
+printf(" %d%d,", i,j);
 }
 return (0);
 }

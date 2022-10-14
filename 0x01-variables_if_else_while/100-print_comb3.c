@@ -6,15 +6,14 @@
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i <= 6; i++)
-for (j = 1; j <= 9; j++)
-if (i == j)
-{
-continue;
+int i = 0;
+int j = 1;
+do {
+printf(" %d%d,", i, j);
 }
 {
-printf(" %d%d,", i,j);
-}
+i++;
+j++;
+} while (i <= 6, j <= 9);
 return (0);
 }

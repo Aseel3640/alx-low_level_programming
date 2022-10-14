@@ -11,7 +11,6 @@ int j = 1;
 do {
 printf(" %d%d,", i, j);
 i++;
-j++;
 } while (i <= 6 && j <= 9);
 return (0);
 }

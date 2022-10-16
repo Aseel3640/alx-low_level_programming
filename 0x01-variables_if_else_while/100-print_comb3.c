@@ -6,15 +6,20 @@
  */
 int main(void)
 {
-int i = 0;
-int j = 1;
-do {
-printf(" %d%d,", i, j);
-if (i == j)
+int i, j;
+for (i = 0; i <= 6;)
+for (j = 1; j <= 9;)
 {
-j++;
+{
+putchar('i, j');
+if (i == j)
 continue;
+putchar(' ');
+putchar(',');
+j++;
 }
-} while (i <= 6 && j <= 9);
+i++;
+}
+putchar('\n');
 return (0);
 }

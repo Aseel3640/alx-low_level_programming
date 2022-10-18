@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
-/*
- *_putchar - writes the character c to stdout
+/**
+ * print_last_digit - Prints the last digit of a number
  *@c: The character to print
  *
  *print_last_digit - Prints the last digit of a number
@@ -13,11 +13,11 @@ int print_last_digit(int g)
 {
 	int n;
 
-	n(n % 10);
+	 n = (n % 10);
 
-	if (n <0)
+	if (n < 0)
 	{
-		n =(-1 * '0');
+		n = (-1 * '0');
 	}
 	_putchar(n + '0');
 	return (n);

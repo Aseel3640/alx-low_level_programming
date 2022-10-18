@@ -1,13 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry point
- *
- * print_sign - Print the sign of a number
- *
- * Return: 1 f the number is greater than zero,
- *         0 if the number is zero,
- *        -1 if the number is less than zero.
+ *main - Entry point
+ *print_sign - prints the sign og number
+ *Return: 1 or 0 or -1
  */
 int main(void)
 {

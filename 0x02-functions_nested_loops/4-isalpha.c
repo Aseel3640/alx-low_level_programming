@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry point.
- *
- *_isalpha - Checksif a character is  alphabetic.
+ *_isalpha - Checks if a character is  alphabetic.
+ *@c: character
  * Return: 1 if c is a letter, lowercase or uppercase.
  *         0 otherwise.
  */

@@ -6,6 +6,7 @@
  *10 allows second digit to rotate
  *Return: 24 hour clock second in each line
  */
+int _putchar(char c);
 void jack_bauer(void)
 {
 	int a, b;

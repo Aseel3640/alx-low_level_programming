@@ -5,7 +5,6 @@
  * c :char
  * Return 1 if lowercase and  0 if not.
  */
-int main()
 int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')

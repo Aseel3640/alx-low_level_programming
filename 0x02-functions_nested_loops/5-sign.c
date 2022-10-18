@@ -1,33 +1,26 @@
-#include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry point
+ *print_sign - Print the sign of a number
  *
- * print_sign - Print the sign of a number
- *
- * Return: 1 f the number is greater than zero,
+ *Return: 1 f the number is greater than zero,
  *         0 if the number is zero,
  *        -1 if the number is less than zero.
  */
-int main(void)
-{
 int print_sign(int n)
 {
 if (n > 0)
 {
-putchar('+');
+_putchar('+');
 return (1);
 }
 else if (n == 0)
 {
-putchar('0');
+_putchar('0');
 return (0);
 }
 else
 {
-putchar('-');
+_putchar('-');
 return (-1);
 }
-}
-return (0);
 }

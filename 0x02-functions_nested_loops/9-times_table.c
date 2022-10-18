@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
   *times_table -  a function that prints the 9 times table, starting with 0
-  *
+  *@c:character
   *Return: times table
   */
 int _putchar(char c);
@@ -32,7 +32,7 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
-	_putchar(',');
+	_putchar('\n');
 	}
 }
 

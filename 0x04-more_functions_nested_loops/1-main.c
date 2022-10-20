@@ -3,12 +3,14 @@
 
 /**
  * main - Entry point
+ * @c: char
  * Return: 0 (Success)
  */
 int _isdigit(int c);
-int main (void)
+int main(void)
 {
 	char c;
+
 	c = 'A';
 	printf("%c: %d\n", c, _isdigit(c));
 	c = 'a';

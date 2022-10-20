@@ -4,9 +4,9 @@
 /**
  * main - check code
  *
- * Return: 0 
+ * Return: 0
  */
-void print_diagonal(int n);
+
 int main(void)
 {
 	print_diagonal(0);

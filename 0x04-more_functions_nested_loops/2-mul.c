@@ -2,16 +2,14 @@
 #include <stdio.h>
 
 /**
- * int mul - multiplies two integers
- * @a: integer
- * @b: integer
- * @z: integer
- * Return: multipletion
+ *mul - multiplies two integers
+ *@a: integer
+ *@b: integer
+ *Return: multipletion
  */
+
 int mul(int a, int b)
 {
-	int z;
-	z = a * b
-		printf("%d\n", z);
+		printf("%d\n", a * b);
 	return (0);
 }

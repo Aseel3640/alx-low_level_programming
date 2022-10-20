@@ -3,7 +3,6 @@
  *print_line - print _ n time
  *@n: integer
  */
-int _putchar(char c);
 void print_line(int n)
 {
 	int i;

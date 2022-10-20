@@ -8,7 +8,7 @@
  */
 void print_square(int n);
 int main(void)
-}
+{
 	print_square(2);
 	print_square(10);
 	print_square(0);

@@ -6,15 +6,7 @@
  */
 void puts2(char *str)
 {
-	for (; *str != '\0'; str++)
-	if (*str % 2 != 0)
-	{
-		continue;
-	}
-	else
-	{
+	for (; *str != '\0'; str += 2)
 		_putchar(*str);
-	}
 	_putchar('\n');
-
 }

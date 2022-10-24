@@ -1,14 +1,17 @@
 #include "main.h"
 /**
- * puts2 - print even numbers
+ * puts2 - print every other number
  * @str: char
  * Return: 0
  */
 void puts2(char *str)
 {
-	for (; *str != '\0'; str += 2)
+	int i = 0;
+
+	while (*(str + i))
 	{
-		_putchar(*str);
+		_putchar(*(str + i));
+		i = i + 2;
 	}
 	_putchar('\n');
 }

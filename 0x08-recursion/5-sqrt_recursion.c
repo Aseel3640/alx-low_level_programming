@@ -5,11 +5,12 @@
  * @y: the square root
  * Return: the square root
  */
-int _sqrt_recursion(int n, int y)
+int _sqrt_recursion(int n, int i)
 {
-if (y * y == n)
-return (y);
-if (y == n / 2)
+int sqrt = i * i;
+if (sqrt > n)
 return (-1);
-return (_sqrt_recursion(n, y + 1));
+if (sqrt == n)
+return (i);
+return (_sqrt_recursion(n, i + 1));
 }

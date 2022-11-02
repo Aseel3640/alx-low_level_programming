@@ -9,8 +9,7 @@ int _sqrt_recursion(int n, int y)
 {
 if (y * y == n)
 return (y);
-else if (y * y > n)
+if (y == n / 2)
 return (-1);
-else
 return (_sqrt_recursion(n, y + 1));
 }

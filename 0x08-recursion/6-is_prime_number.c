@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _prime - find if anumber is prime
- * @n: number
+ * @i: number
+ * @j: number
  * Return: 0 or 1
  */
 int _prime(int i, int j)

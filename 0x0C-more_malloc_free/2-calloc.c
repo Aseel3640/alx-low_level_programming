@@ -16,7 +16,7 @@ j = nmemb * size;
 p = malloc(j);
 if (p == NULL)
 return (NULL);
-while (i < l)
+while (i < j)
 {
 p[i] = 0;
 i++;

@@ -14,3 +14,8 @@ char *name;
 float age;
 char *owner;
 };
+/**
+ * typedef dog_t - defines a new name for type struct dog
+ *
+ */
+ typedef struct dog dog_t;

@@ -1,5 +1,5 @@
-#ifndef _LIST_H
-#define _LIST_H
+#ifndef _LINKED_LIST
+#define _LINKED_LIST
 /**
  * struct list_s - singly linked list
  * @str: string

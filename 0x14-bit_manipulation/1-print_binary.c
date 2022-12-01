@@ -9,7 +9,7 @@ int c = 0;
 int i = sizeof(n) * 8 - 1;
 if (n == 0)
 _putchar('0');
-while (bit >= 0)
+while (i >= 0)
 {
 if (n >> i & 1)
 {

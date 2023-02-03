@@ -27,3 +27,4 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		elem = elem->next;
 
 	return (elem->value);
+}

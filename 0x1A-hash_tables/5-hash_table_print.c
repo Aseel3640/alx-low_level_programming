@@ -28,7 +28,7 @@ void hash_table_print(const hash_table_t *ht)
 
 			pr_commas = 1;
 			printf("'%s': '%s'", (char *) node->key,
-					     (char *) node->value);
+						(char *) node->value);
 			node = node->next;
 		}
 	}
